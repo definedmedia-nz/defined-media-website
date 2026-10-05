@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Defined Media | Property Films &amp; Photography for Christchurch Agents</title>
+<meta name="description" content="Narrative-Driven Showcase Films and Composed Property Photography for real estate agents across Christchurch and North Canterbury. Enquire for a reply within 24 hours.">
+<link rel="canonical" href="https://definedmedia.co.nz/">
+<meta name="theme-color" content="#0d0d0d">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Defined Media">
+<meta property="og:title" content="Defined Media | Built For Agents Who Refuse To Blend In">
+<meta property="og:description" content="Narrative-Driven Showcase Films and Composed Property Photography for agents across Christchurch and North Canterbury.">
+<meta property="og:url" content="https://definedmedia.co.nz/">
+<meta property="og:image" content="https://definedmedia.co.nz/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Defined Media",
+  "description": "Narrative-Driven Showcase Films and Composed Property Photography for real estate agents.",
+  "url": "https://definedmedia.co.nz/",
+  "email": "lukas@definedmedia.co.nz",
+  "telephone": "+64 27 505 2931",
+  "image": "https://definedmedia.co.nz/assets/img/og-image.jpg",
+  "address": { "@type": "PostalAddress", "addressLocality": "Christchurch", "addressCountry": "NZ" },
+  "areaServed": ["Christchurch", "North Canterbury"],
+  "founder": { "@type": "Person", "name": "Lukas" },
+  "sameAs": ["https://www.instagram.com/definedmedia.co.nz/", "https://www.linkedin.com/in/lukastobeck/"]
+}
+</script>
+
+<style>
+:root{
+  --black:#0d0d0d;
+  --text:#ededed;
+  --white:#ffffff;
+  --muted:rgba(237,237,237,0.72);
+  --line:rgba(237,237,237,0.16);
+  --ink:#0d0d0d;
+  --ink-muted:rgba(13,13,13,0.68);
+  --pad:clamp(20px,5vw,72px);
+  --max:1200px;
+  --header-h:76px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--black);color:var(--text);font-family:'Inter','Helvetica Neue',Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+.photography :focus-visible{outline-color:var(--ink)}
+.wrap{width:100%;max-width:calc(var(--max) + var(--pad)*2);margin:0 auto;padding:0 var(--pad)}
+.skip{position:absolute;left:-999px;top:0;background:var(--text);color:var(--black);padding:10px 16px;z-index:100}
+.skip:focus{left:12px;top:12px}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:var(--black);padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid transparent;transition:border-color .2s}
+.site-header.scrolled{border-bottom-color:var(--line)}
+.header-inner{height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:block;width:118px}
+.logo img{width:100%}
+.nav{display:flex;align-items:center;gap:40px;font-size:14px}
+.nav a:not(.btn){opacity:.85;transition:opacity .15s}
+.nav a:not(.btn):hover{opacity:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 22px;background:var(--text);color:var(--black);font-size:14px;font-weight:600;border:none;border-radius:2px;cursor:pointer;transition:background .15s}
+.btn:hover{background:var(--white)}
+.menu-toggle{display:none;width:44px;height:44px;background:none;border:none;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.menu-toggle span{display:block;width:22px;height:1.5px;background:var(--text);position:relative;transition:background .2s}
+.menu-toggle span::before,.menu-toggle span::after{content:"";position:absolute;left:0;width:22px;height:1.5px;background:var(--text);transition:transform .2s}
+.menu-toggle span::before{top:-7px}
+.menu-toggle span::after{top:7px}
+.menu-open .menu-toggle span{background:transparent}
+.menu-open .menu-toggle span::before{transform:translateY(7px) rotate(45deg)}
+.menu-open .menu-toggle span::after{transform:translateY(-7px) rotate(-45deg)}
+
+/* Hero */
+.hero-media{position:relative;width:100%;aspect-ratio:2.39/1;background:var(--black);overflow:hidden}
+.hero-media video,.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-text{padding-top:clamp(36px,5vw,56px);padding-bottom:clamp(48px,6vw,72px)}
+.hero-text h1{margin:0;font-size:clamp(30px,3.4vw,44px);font-weight:700;line-height:1.15;letter-spacing:-0.015em;max-width:none}
+.hero-text p{margin:18px 0 0;font-size:clamp(16px,1.35vw,19px);line-height:1.55;max-width:66ch;color:var(--text)}
+
+/* Explainer */
+.explainer{padding:clamp(56px,8vw,120px) 0}
+.explainer-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.explainer figure{margin:0}
+.explainer figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+figcaption{margin-top:12px;font-size:13px;font-style:italic;font-weight:300;color:var(--muted)}
+.explainer h2{margin:0 0 22px;font-size:clamp(26px,2.6vw,36px);font-weight:600;line-height:1.15;letter-spacing:-0.01em;max-width:16ch}
+.explainer p{margin:0 0 18px;max-width:46ch}
+.explainer p:last-child{margin-bottom:0}
+
+/* Films */
+.films{padding:clamp(56px,8vw,120px) 0}
+.films-head{text-align:center;margin-bottom:clamp(28px,3vw,40px)}
+.eyebrow{margin:0;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.films-head h2{margin:14px 0 0;font-size:clamp(26px,2.8vw,40px);font-weight:600;letter-spacing:-0.01em;line-height:1.15}
+.featured{max-width:960px;margin:0 auto}
+.player{position:relative;display:block;width:100%;aspect-ratio:16/9;background:#1a1a1a;overflow:hidden;cursor:pointer}
+.player img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.player:hover img{transform:scale(1.015)}
+.player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;border:1.5px solid rgba(255,255,255,0.9);background:rgba(0,0,0,0.28);display:flex;align-items:center;justify-content:center;transition:background .2s}
+.player:hover .play{background:rgba(0,0,0,0.45)}
+.play svg{width:24px;height:28px;margin-left:5px}
+.credit{margin:14px 0 0;font-size:14px;color:var(--muted)}
+.more{max-width:960px;margin:clamp(64px,7vw,96px) auto 0}
+.more .eyebrow{padding-bottom:18px;border-bottom:1px solid var(--line)}
+.more-row{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:clamp(20px,4vw,40px);align-items:center;padding:28px 0;border-bottom:1px solid var(--line)}
+.more-row .play{width:60px;height:60px;margin:-30px 0 0 -30px}
+.more-row .play svg{width:17px;height:20px;margin-left:4px}
+.more-row h3{margin:0;font-size:clamp(22px,2.2vw,30px);font-weight:600;letter-spacing:-0.01em;line-height:1.2}
+.more-row .credit{margin-top:8px}
+
+/* Photography (white) */
+.photography{background:var(--white);color:var(--ink);padding:clamp(56px,8vw,112px) 0}
+.photography h2{margin:0;font-size:clamp(24px,2.4vw,32px);font-weight:400;letter-spacing:-0.01em;line-height:1.2}
+.photography .lead{margin:12px 0 0;font-size:15px;color:var(--ink-muted);max-width:52ch}
+.grid{margin-top:clamp(28px,3vw,40px);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(12px,2vw,28px)}
+.grid img{width:100%;height:100%;object-fit:cover;background:#eee}
+.g-top{grid-column:1/-1;aspect-ratio:3/1}
+.g-wide{grid-column:span 8;aspect-ratio:2/1}
+.g-sq{grid-column:span 4;aspect-ratio:1/1}
+.g-sq-l{grid-column:span 4;aspect-ratio:1/1}
+.g-wide-r{grid-column:span 8;aspect-ratio:2/1}
+.grid .g-sq,.grid .g-sq-l{aspect-ratio:auto;height:100%}
+
+/* About */
+.about{padding:clamp(56px,8vw,120px) 0}
+.about-head h2{margin:0;font-size:clamp(24px,2.4vw,32px);font-weight:400;letter-spacing:-0.01em;line-height:1.2}
+.about-head p{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.about-grid{margin-top:clamp(32px,4vw,48px);display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.bio{font-style:italic;font-weight:300;font-size:clamp(16px,1.3vw,18px);line-height:1.65;max-width:56ch}
+.bio p{margin:0 0 18px}
+.bio strong{font-weight:600}
+.signature{display:flex;align-items:center;gap:14px;margin-top:8px}
+.signature span{font-style:normal;color:var(--muted)}
+.signature img{width:120px}
+.about figure{margin:0}
+.about figure img{width:100%;aspect-ratio:1/1;object-fit:cover}
+
+/* Enquire */
+.enquire{position:relative;overflow:hidden;padding:clamp(64px,8vw,120px) 0}
+.enquire-bg{position:absolute;inset:0;z-index:0}
+.enquire-bg img{width:100%;height:100%;object-fit:cover;opacity:.12}
+.enquire .wrap{position:relative;z-index:1}
+.enquire-grid{display:grid;grid-template-columns:minmax(0,0.85fr) minmax(0,1.15fr);gap:clamp(40px,7vw,112px);align-items:start}
+.enquire-intro .label{margin:0;font-size:14px;color:var(--muted)}
+.enquire-intro h2{margin:14px 0 0;font-size:clamp(30px,3.2vw,44px);font-weight:600;line-height:1.1;letter-spacing:-0.015em;max-width:14ch}
+.enquire-intro p{margin:20px 0 0;max-width:40ch}
+.steps{list-style:none;margin:36px 0 0;padding:0;border-top:1px solid var(--line);max-width:420px}
+.steps li{display:flex;gap:20px;padding:16px 0;border-bottom:1px solid var(--line);font-size:15px}
+.steps b{font-weight:500;color:var(--muted);font-size:13px;padding-top:2px}
+
+.form{display:flex;flex-direction:column;gap:28px}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 28px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label,.legend{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select,.field textarea{width:100%;min-height:46px;padding:8px 2px;background:transparent;border:none;border-bottom:1px solid rgba(237,237,237,0.45);border-radius:0;font-size:16px;color:var(--text);transition:border-color .15s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-bottom-color:var(--text)}
+.field select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23ededed' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 4px center;padding-right:24px;cursor:pointer}
+.field select option{background:var(--black);color:var(--text)}
+.field input[type=date]{color-scheme:dark}
+.field textarea{min-height:90px;resize:vertical}
+fieldset{margin:0;padding:0;border:none}
+.legend{display:block;margin-bottom:14px;padding:0}
+.pills{display:flex;flex-wrap:wrap;gap:12px}
+.pill{position:relative}
+.pill input{position:absolute;opacity:0;width:1px;height:1px}
+.pill span{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 20px;border:1px solid rgba(237,237,237,0.5);font-size:15px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.pill span::before{content:"";width:10px;height:10px;border:1px solid currentColor}
+.pill input:checked + span{background:var(--text);color:var(--black);border-color:var(--text)}
+.pill input:checked + span::before{background:currentColor}
+.pill input:focus-visible + span{outline:2px solid var(--text);outline-offset:3px}
+.check{display:flex;align-items:center;gap:12px;min-height:44px;margin-top:14px;font-size:15px;cursor:pointer}
+.check input{width:18px;height:18px;accent-color:#ededed;margin:0}
+.submit-row{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.submit-row .btn{min-height:50px;padding:0 30px;font-size:15px}
+.submit-row small{font-size:14px;color:var(--muted)}
+.hp{position:absolute;left:-9999px}
+.form-status{margin:0;font-size:15px}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--line);padding:clamp(48px,6vw,72px) 0 calc(28px + env(safe-area-inset-bottom,0px))}
+.footer-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:40px}
+.footer-brand .logo{width:110px}
+.footer-brand p{margin:18px 0 0;font-size:14px;line-height:1.6;color:var(--muted);max-width:40ch}
+.footer-col h3{margin:0 0 14px;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.footer-col a{display:inline-flex;align-items:center;gap:10px;min-height:32px;opacity:.9}
+.footer-col a:hover{opacity:1}
+.footer-col svg{width:18px;height:18px}
+.footer-bottom{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+/* Video modal */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,0.9);display:none;align-items:center;justify-content:center;padding:var(--pad)}
+.modal.open{display:flex}
+.modal-inner{width:100%;max-width:1100px;aspect-ratio:16/9;position:relative;background:#000}
+.modal-inner iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.modal-close{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:14px;width:48px;height:48px;background:none;border:none;color:#fff;font-size:30px;line-height:1;cursor:pointer}
+
+/* Mobile */
+@media (max-width:900px){
+  :root{--header-h:64px}
+  .logo{width:100px}
+  .menu-toggle{display:inline-flex}
+  .nav{position:fixed;left:0;right:0;top:calc(var(--header-h) + env(safe-area-inset-top,0px));bottom:0;background:var(--black);flex-direction:column;align-items:flex-start;gap:0;padding:12px var(--pad) calc(24px + env(safe-area-inset-bottom,0px));font-size:22px;transform:translateX(100%);visibility:hidden;transition:transform .25s ease,visibility .25s}
+  .menu-open .nav{transform:none;visibility:visible}
+  .nav a:not(.btn){width:100%;padding:16px 0;border-bottom:1px solid var(--line);opacity:1}
+  .nav .btn{margin-top:28px;width:100%;min-height:52px;font-size:16px}
+  .hero-media{aspect-ratio:16/10}
+  .explainer-grid,.about-grid,.enquire-grid{grid-template-columns:1fr}
+  .about figure{max-width:420px;order:-1}
+  .more-row{grid-template-columns:1fr;gap:16px;padding:24px 0}
+  .g-top{aspect-ratio:3/2}
+  .g-wide,.g-wide-r{grid-column:1/-1;aspect-ratio:3/2}
+  .g-sq,.g-sq-l{grid-column:1/-1}
+  .grid .g-sq,.grid .g-sq-l{aspect-ratio:1/1;height:auto}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-brand{grid-column:1/-1}
+}
+@media (max-width:560px){
+  .fields{grid-template-columns:1fr}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .g-sq,.g-sq-l{grid-column:span 1}
+  .pill{width:100%}
+  .pill span{width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none !important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Defined Media home"><img src="assets/logo.svg" alt="Defined Media" width="118" height="26"></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="#films">Films</a>
+      <a href="#photography">Photography</a>
+      <a href="#about">About</a>
+      <a href="#enquire" class="btn">Enquire Now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section aria-label="Introduction">
+    <div class="hero-media">
+      <picture>
+        <source media="(max-width:900px)" srcset="assets/img/hero-poster-mobile.webp">
+        <img src="assets/img/hero-poster-desktop.webp" width="1920" height="804" alt="" fetchpriority="high">
+      </picture>
+      <video id="hero-video" muted loop playsinline preload="none" aria-hidden="true"></video>
+    </div>
+    <div class="wrap hero-text">
+      <h1>Built For Agents Who Refuse To Blend In</h1>
+      <p>Narrative-Driven Showcase Films and Composed Property Photography, built around your target buyer, that sell the home and position you as the local expert.</p>
+    </div>
+  </section>
+
+  <!-- EXPLAINER -->
+  <section class="explainer" aria-labelledby="explainer-title">
+    <div class="wrap explainer-grid">
+      <figure>
+        <img src="assets/img/reka-800.webp" srcset="assets/img/reka-800.webp 800w, assets/img/reka-1400.webp 1400w" sizes="(max-width:900px) 100vw, 50vw" width="1400" height="933" alt="Modern two-storey home at dusk with a lit upstairs window" loading="lazy" decoding="async">
+        <figcaption>12 Reka Street, Parklands</figcaption>
+      </figure>
+      <div>
+        <h2 id="explainer-title">Sharpening Your Presence In The Market</h2>
+        <p>Every listing does two jobs. It sells the home, and it builds your brand. Each Narrative-Driven Showcase Film and Composed Property Photography shoot is built around your target buyer, so it attracts the right buyers and shows vendors the standard of service they'll get.</p>
+        <p>One creator, one consistent look, listing after listing.</p>
+        <p>Made for agents who run their own personal brand, and invest in quality media to stand out in the market.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILMS -->
+  <section class="films" id="films" aria-labelledby="films-title">
+    <div class="wrap">
+      <div class="films-head">
+        <p class="eyebrow">Featured Showcase Film</p>
+        <h2 id="films-title">17 Mayfly Lane, Clearwater</h2>
+      </div>
+      <div class="featured">
+        <a class="player" href="https://www.youtube.com/watch?v=4eSBa10wA2A" data-yt="4eSBa10wA2A" data-mode="inline" aria-label="Play the 17 Mayfly Lane, Clearwater Showcase Film">
+          <img src="assets/img/mayfly-960.webp" srcset="assets/img/mayfly-960.webp 960w, assets/img/mayfly-1600.webp 1600w, assets/img/mayfly-1920.webp 1920w" sizes="(max-width:1000px) 100vw, 960px" width="1920" height="1080" alt="" loading="lazy" decoding="async">
+          <span class="play" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M2 2l20 12L2 26z" fill="none" stroke="#fff" stroke-width="1.6"/></svg></span>
+        </a>
+        <p class="credit">Showcase Film | Cameron Bailey</p>
+      </div>
+
+      <div class="more">
+        <p class="eyebrow">More Work</p>
+        <div class="more-row">
+          <a class="player" href="https://youtu.be/WzNotUB7RT0" data-yt="WzNotUB7RT0" data-mode="modal" aria-label="Play the Grosvenor Lane, Rangiora Showcase Film">
+            <img src="assets/img/grosvenor-640.webp" srcset="assets/img/grosvenor-640.webp 640w, assets/img/grosvenor-1000.webp 1000w" sizes="(max-width:900px) 100vw, 400px" width="1000" height="562" alt="" loading="lazy" decoding="async">
+            <span class="play" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M2 2l20 12L2 26z" fill="none" stroke="#fff" stroke-width="2"/></svg></span>
+          </a>
+          <div>
+            <h3>Grosvenor Lane, Rangiora</h3>
+            <p class="credit">Showcase Film | Adrian Louttit</p>
+          </div>
+        </div>
+        <div class="more-row">
+          <a class="player" href="https://youtu.be/PUmLQ4udg5s" data-yt="PUmLQ4udg5s" data-mode="modal" aria-label="Play the Aberdeen Road, Prebbleton Lifestyle Film">
+            <img src="assets/img/aberdeen-640.webp" srcset="assets/img/aberdeen-640.webp 640w, assets/img/aberdeen-1000.webp 1000w" sizes="(max-width:900px) 100vw, 400px" width="1000" height="562" alt="" loading="lazy" decoding="async">
+            <span class="play" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M2 2l20 12L2 26z" fill="none" stroke="#fff" stroke-width="2"/></svg></span>
+          </a>
+          <div>
+            <h3>Aberdeen Road, Prebbleton</h3>
+            <p class="credit">Lifestyle Film | Exterior</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTOGRAPHY -->
+  <section class="photography" id="photography" aria-labelledby="photo-title">
+    <div class="wrap">
+      <h2 id="photo-title">Composed Property Photography</h2>
+      <p class="lead">Editorial property photography that shows the home at its absolute best and makes buyers book a viewing.</p>
+      <div class="grid">
+        <img class="g-top" src="assets/img/photo-living-top-1000.webp" srcset="assets/img/photo-living-top-1000.webp 1000w, assets/img/photo-living-top-1600.webp 1600w, assets/img/photo-living-top-2400.webp 2400w" sizes="(max-width:1300px) 100vw, 1200px" width="2400" height="1600" alt="Bright living room with white sofas, timber coffee table and views over the neighbourhood" loading="lazy" decoding="async">
+        <img class="g-wide" src="assets/img/photo-outside-800.webp" srcset="assets/img/photo-outside-800.webp 800w, assets/img/photo-outside-1400.webp 1400w" sizes="(max-width:900px) 100vw, 66vw" width="1400" height="933" alt="Home exterior with timber pergola, outdoor living area and manicured hedges" loading="lazy" decoding="async">
+        <img class="g-sq" src="assets/img/photo-fireplace-800.webp" srcset="assets/img/photo-fireplace-800.webp 800w, assets/img/photo-fireplace-1400.webp 1400w" sizes="(max-width:560px) 50vw, (max-width:900px) 100vw, 33vw" width="1400" height="933" alt="Lounge detail with gas fireplace, glass coffee table and armchair" loading="lazy" decoding="async" style="object-position:62% 50%">
+        <img class="g-sq-l" src="assets/img/photo-kitchen-800.webp" srcset="assets/img/photo-kitchen-800.webp 800w, assets/img/photo-kitchen-1400.webp 1400w" sizes="(max-width:560px) 50vw, (max-width:900px) 100vw, 33vw" width="1400" height="933" alt="Kitchen with dark timber island, brass pendant lights and garden views" loading="lazy" decoding="async" style="object-position:45% 50%">
+        <img class="g-wide-r" src="assets/img/photo-living-vaulted-800.webp" srcset="assets/img/photo-living-vaulted-800.webp 800w, assets/img/photo-living-vaulted-1400.webp 1400w" sizes="(max-width:900px) 100vw, 66vw" width="1400" height="933" alt="Vaulted living room with exposed beams, fireplace and built-in bookshelves" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="about-head">
+        <h2 id="about-title">Behind The Brand</h2>
+        <p>Meet the Owner &amp; Producer of Defined Media</p>
+      </div>
+      <div class="about-grid">
+        <div class="bio">
+          <p>“Hi, I’m Lukas.</p>
+          <p>I’m a self-taught media producer with a commercial background in digital marketing. I partner with clients to create high-end video, photography, brand films and short-form social content.</p>
+          <p>From directing shoots to producing property media, I make sure every piece of content feels considered, consistent and aligned with your brand and tone of voice.</p>
+          <p><strong>Solo media producer. One consistent look, listing after listing.</strong></p>
+          <p>The longer we work together, the more your content becomes unmistakably yours.”</p>
+          <div class="signature"><span aria-hidden="true">–</span><img src="assets/img/signature.png" width="320" height="140" alt="Lukas" loading="lazy" decoding="async"></div>
+        </div>
+        <figure>
+          <img src="assets/img/lukas-600.webp" srcset="assets/img/lukas-600.webp 600w, assets/img/lukas-1000.webp 1000w" sizes="(max-width:900px) 420px, 40vw" width="1000" height="1000" alt="Lukas, owner and producer of Defined Media" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENQUIRE -->
+  <section class="enquire" id="enquire" aria-labelledby="enquire-title">
+    <div class="enquire-bg" aria-hidden="true">
+      <img src="assets/img/enquire-bg-1200.webp" srcset="assets/img/enquire-bg-1200.webp 1200w, assets/img/enquire-bg-2000.webp 2000w" sizes="100vw" width="2000" height="1333" alt="" loading="lazy" decoding="async">
+    </div>
+    <div class="wrap enquire-grid">
+      <div class="enquire-intro">
+        <p class="label">Enquire</p>
+        <h2 id="enquire-title">Tell Me About Your Next Listing.</h2>
+        <p>Every package is tailored to the property. Share a few details and I’ll reply within 24 hours with the right package and pricing.</p>
+        <ol class="steps">
+          <li><b>01</b>Send the property details</li>
+          <li><b>02</b>Get packages and pricing within 24h</li>
+          <li><b>03</b>Lock in your shoot date</li>
+        </ol>
+      </div>
+
+      <!-- FORM: connected to Formspree -->
+      <form class="form" id="enquiry-form" action="https://formspree.io/f/meaeqjgl" method="POST">
+        <input type="hidden" name="_subject" value="New website enquiry – Defined Media">
+        <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="fields">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="f-agency">Agency</label><input id="f-agency" name="agency" type="text" autocomplete="organization"></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+          <div class="field"><label for="f-suburb">Property Suburb</label><input id="f-suburb" name="property_suburb" type="text"></div>
+          <div class="field"><label for="f-value">Approx. Property Value</label>
+            <select id="f-value" name="property_value">
+              <option value="">Select</option>
+              <option>Under $800k</option>
+              <option>$800k – $1.2m</option>
+              <option>$1.2m – $2m</option>
+              <option>$2m+</option>
+            </select>
+          </div>
+          <div class="field"><label for="f-date">Expected Listing Date</label><input id="f-date" name="listing_date" type="date"></div>
+          <div class="field"><label for="f-beds">Bedrooms</label>
+            <select id="f-beds" name="bedrooms">
+              <option value="">Select</option>
+              <option>Up to 4</option>
+              <option>5+ or lifestyle</option>
+            </select>
+          </div>
+        </div>
+
+        <fieldset>
+          <legend class="legend">What Are You After?</legend>
+          <div class="pills">
+            <label class="pill"><input type="checkbox" name="service" value="Narrative-Driven Showcase Film"><span>Narrative-Driven Showcase Film</span></label>
+            <label class="pill"><input type="checkbox" name="service" value="Composed Property Photography"><span>Composed Property Photography</span></label>
+          </div>
+          <label class="check"><input type="checkbox" name="twilight" value="Yes">Add Twilight (real dusk photos and film clips)</label>
+        </fieldset>
+
+        <div class="field"><label for="f-notes">Anything Else? (Optional)</label><textarea id="f-notes" name="message" rows="3"></textarea></div>
+
+        <div class="submit-row">
+          <button class="btn" type="submit">Enquire Now</button>
+          <small>Reply within 24 hours.</small>
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="Back to top"><img src="assets/logo.svg" alt="Defined Media" width="110" height="24" loading="lazy"></a>
+        <p>Narrative-Driven Showcase Films and Composed Property Photography for agents across Christchurch and North Canterbury.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:lukas@definedmedia.co.nz">lukas@definedmedia.co.nz</a></li>
+          <li><a href="tel:+64275052931">027 505 2931</a></li>
+          <li><span style="color:var(--muted)">Christchurch, NZ</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/definedmedia.co.nz/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/lukastobeck/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zm7 0h3.8v1.6h.06c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.14v5.32h-4v-4.72c0-1.13-.02-2.58-1.57-2.58-1.58 0-1.82 1.23-1.82 2.5v4.8H10z"/></svg>LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Defined Media Ltd</div>
+  </div>
+</footer>
+
+<div class="modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Video player">
+  <button class="modal-close" type="button" aria-label="Close video">×</button>
+  <div class="modal-inner"></div>
+</div>
+
+<script>
+(function(){
+  var body=document.body, header=document.querySelector('.site-header'), toggle=document.querySelector('.menu-toggle');
+  // Mobile menu
+  toggle.addEventListener('click',function(){
+    var open=body.classList.toggle('menu-open');
+    toggle.setAttribute('aria-expanded',open);
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+  });
+  document.querySelectorAll('.nav a').forEach(function(a){a.addEventListener('click',function(){
+    body.classList.remove('menu-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open menu');
+  });});
+  // Header border on scroll
+  addEventListener('scroll',function(){header.classList.toggle('scrolled',scrollY>8);},{passive:true});
+
+  // Banner video: phones get the mobile file, computers get the desktop file (only one downloads)
+  var hv=document.getElementById('hero-video');
+  if(hv){hv.muted=true;}
+  if(hv && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var mq=matchMedia('(max-width:900px)');
+    var setHero=function(){
+      var want=mq.matches?'assets/video/hero-mobile.mp4':'assets/video/hero-desktop.mp4';
+      if(hv.getAttribute('src')!==want){hv.setAttribute('src',want);hv.load();}
+      var pr=hv.play();if(pr&&pr.catch)pr.catch(function(){});
+    };
+    setHero();
+    if(mq.addEventListener)mq.addEventListener('change',setHero);else if(mq.addListener)mq.addListener(setHero);
+  }
+
+  // YouTube: load the player only when tapped
+  function embed(id){
+    var f=document.createElement('iframe');
+    f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    f.title='Defined Media film';
+    f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen=true;
+    f.referrerPolicy='strict-origin-when-cross-origin'; // YouTube needs this (prevents Error 153)
+    return f;
+  }
+  var modal=document.getElementById('video-modal'), inner=modal.querySelector('.modal-inner'), closeBtn=modal.querySelector('.modal-close'), lastFocus=null;
+  function closeModal(){modal.classList.remove('open');inner.innerHTML='';body.style.overflow='';if(lastFocus)lastFocus.focus();}
+  closeBtn.addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal();});
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('open'))closeModal();});
+  document.querySelectorAll('[data-yt]').forEach(function(el){
+    el.addEventListener('click',function(e){
+      e.preventDefault();
+      var id=el.getAttribute('data-yt');
+      if(el.getAttribute('data-mode')==='inline'){
+        el.innerHTML='';el.appendChild(embed(id));el.removeAttribute('href');el.style.cursor='default';
+      }else{
+        lastFocus=el;inner.innerHTML='';inner.appendChild(embed(id));modal.classList.add('open');body.style.overflow='hidden';closeBtn.focus();
+      }
+    });
+  });
+
+  // Form: send without leaving the page
+  var form=document.getElementById('enquiry-form'), status=form.querySelector('.form-status');
+  form.addEventListener('submit',function(e){
+        e.preventDefault();
+    var btn=form.querySelector('button[type=submit]');
+    btn.disabled=true;btn.textContent='Sending…';status.textContent='';
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){
+        if(r.ok){form.reset();status.textContent='Thanks, your enquiry is in. I’ll reply within 24 hours.';btn.textContent='Enquiry Sent';}
+        else{throw new Error();}
+      })
+      .catch(function(){status.textContent='That didn’t send. Please try again, or email lukas@definedmedia.co.nz.';btn.disabled=false;btn.textContent='Enquire Now';});
+  });
+})();
+</script>
+</body>
+</html>
